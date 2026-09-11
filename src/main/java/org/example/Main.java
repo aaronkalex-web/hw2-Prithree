@@ -33,7 +33,9 @@ public class Main {
             System.out.print("_____ ");
             System.out.println("Please type the next word");
             String word = scanner.next();
-            if (word.equals(sonnetArr[random])) {
+            word = word.toLowerCase();
+            word = word.strip();
+            if (word.equals(sonnetArr[random].toLowerCase())) {
                 System.out.println("Right!");
                 correct ++;
             }

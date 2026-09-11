@@ -1,0 +1,20 @@
+9/11/2026
+Aaron Alex
+
+Program Overview:
+This program prints a sonnet and asks the user to fill in a randomly chosen missing word. The user then inputs
+an answer into the console. This behaviour loops until either the user gets three words correct or incorrect.
+
+How to run the program:
+To run this software simply run the Main class through the console.
+
+Core Psuedocode -
+
+Deconstruct the sonnet into a String array with each index storing a word
+while (correct != 3 and incorrect != 3) {
+    int rand = random integer from 0 to length of array
+    print each index of the sonnet array until index rand
+    Ask user to input the next word
+        if correct -> correct++
+        else incorrect++
+}

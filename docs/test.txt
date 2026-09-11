@@ -1,0 +1,13 @@
+*Disclaimer*
+I was not sure if the assignment wanted actual implemented JUnit tests or just examples in a txt file like last hw
+so I did both however I was unsure how to implement a test for the main method in JUnit testing folder as it
+uses a scanner so I included Junit tests for the convert method used in main and example tests here.
+*************
+
+Tests:
+User input         ----           Outcome
+""                                     -> Wrong!
+(Correct word) + " "                   -> Right!
+" " + (Correct word)                   -> Right!
+(Correct word) + ". , ' - etc."        -> Wrong!
+(Correct word with incorrect capitals) -> Right!
